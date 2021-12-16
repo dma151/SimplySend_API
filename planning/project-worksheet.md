@@ -9,7 +9,7 @@ like Meta, to use facebook messenger, or have an MacOS to user iMessage
 
 ## Wireframes
 
-- [Wireframe](project4-wireframe.md)
+- [Wireframe](project4-wireframe.jpg)
 - [React Structure](#) Coming soon
 
 ## MVP/Post MVP
