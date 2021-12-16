@@ -40,6 +40,7 @@ Functional app where a user can send a message to another user and when the othe
 
 
 | Components | Description |
+| --- | :---: |
 | App | Renders all other Components |
 | NavBar | Has app logo and Navigation options |
 | Register | Users can register for the app |
