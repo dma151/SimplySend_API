@@ -1,7 +1,7 @@
 from django.urls import path
 from .views.users import SignUp, SignIn, SignOut, ChangePassword, Friends
 from .views.friend_requests import MakeFriendRequest, FriendRequests, AcceptFriendRequest, DeleteFriendRequest, PendingFriendRequests
-from .views.conversations import ListConversations, CreateConversation
+from .views.conversations import ListConversations, CreateConversation, OneConversation, DeleteConversation
 
 urlpatterns = [
     path('sign-up/', SignUp.as_view(), name='sign-up'),
@@ -14,6 +14,8 @@ urlpatterns = [
     path('friend-requests/', FriendRequests.as_view(), name='friend-requests'),
     path('pending-friend-requests/', PendingFriendRequests.as_view(), name='pending-friend-requests'),
     path('friends/', Friends.as_view(), name='friends'),
-    path('conversations/', ListConversations.as_view(), name='conversations'),
+    path('conversations/', ListConversations.as_view(), name='conversations index'),
     path('conversations/create/', CreateConversation.as_view(), name='create-conversation'),
+    path('conversations/<int:id>/', OneConversation.as_view(), name='conversation by id'),
+    path('conversations/delete/<int:id>/', DeleteConversation.as_view(), name='delete-conversation')
 ]
