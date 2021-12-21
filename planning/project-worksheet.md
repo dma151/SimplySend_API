@@ -36,7 +36,7 @@ Functional app where a user can send a message to another user and when the othe
 | --- | :---: |
 | User | Use of the app that can add friends and message them |
 | Conversations | Database that stores conversation between 2 Users |
-| Friend | Relational Model between Users |
+| Friend_Request | Relational Model between Users |
 
 
 | Components | Description |
@@ -52,6 +52,7 @@ Functional app where a user can send a message to another user and when the othe
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: | :---: | :---: | :---: |
+| Backend Models/Views | H | 7hr | 5hr |  | 
 | App | H | 1hr | 1hr | 1hr |
 | NavBar | H | 2hr |  |  |
 | Register | H |  |  |
