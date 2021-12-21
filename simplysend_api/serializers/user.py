@@ -9,3 +9,7 @@ class UserSerializer(serializers.ModelSerializer):
 
     def create(self, validated_data):
         return get_user_model().objects.create_user(**validated_data)
+
+class FriendSerializer(serializers.StringRelatedField):
+    def to_internal_value(self, value):
+        return value

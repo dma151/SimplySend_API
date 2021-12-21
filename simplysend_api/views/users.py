@@ -68,7 +68,7 @@ class ChangePassword(generics.UpdateAPIView):
         user.save()
         return Response(status=status.HTTP_204_NO_CONTENT)
 
-class MyFriends(generics.CreateAPIView):
+class Friends(generics.CreateAPIView):
     def get(self, request):
         info = get_object_or_404(User, user=request.user)
         data = UserSerializer(info).data

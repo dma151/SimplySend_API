@@ -35,7 +35,7 @@ class DeleteFriendRequest(generics.CreateAPIView):
         else:
             return Response('Unauthorized', status=status.HTTP_400_BAD_REQUEST)
 
-class MyFriendRequests(generics.CreateAPIView):
+class FriendRequests(generics.CreateAPIView):
     def get(self, request):
         friend_requests = Friend_Request.objects.filter(to_user = request.user)
         data = Friend_RequestSerializer(friend_requests, many=True).data
