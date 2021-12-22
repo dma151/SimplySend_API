@@ -52,9 +52,9 @@ Functional app where a user can send a message to another user and when the othe
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: | :---: | :---: | :---: |
-| Backend Models/Views | H | 7hr | 5hr |  | 
+| Backend Models/Views | H | 7hr | 15hr |  | 
 | App | H | 1hr | 1hr | 1hr |
-| NavBar | H | 2hr |  |  |
+| NavBar | H | 2hr | 1hr |  |
 | Register | H |  |  |
 | SignIn | H |  |  |
 | UserHome | H |  |  |

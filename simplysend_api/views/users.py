@@ -10,6 +10,7 @@ from django.shortcuts import get_object_or_404
 class SignUp(generics.CreateAPIView):
     authentication_classes = ()
     permission_classes = ()
+    serializer_class = UserSerializer
 
     def post(self, request):
         created_user = UserSerializer(data=request.data['user'])
