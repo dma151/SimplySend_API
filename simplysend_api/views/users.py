@@ -74,3 +74,9 @@ class Friends(generics.CreateAPIView):
         info = get_object_or_404(User, user=request.user)
         data = UserSerializer(info).data
         return Response(data)
+
+class GetUser(generics.CreateAPIView):
+    def get(self, request, id):
+        info = get_object_or_404(User, pk=id)
+        data = UserSerializer(info).data
+        return Response(data)

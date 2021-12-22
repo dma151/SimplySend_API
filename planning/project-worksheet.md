@@ -55,8 +55,7 @@ Functional app where a user can send a message to another user and when the othe
 | Backend Models/Views | H | 7hr | 15hr |  | 
 | App | H | 1hr | 1hr | 1hr |
 | NavBar | H | 2hr | 1hr |  |
-| Register | H |  |  |
-| SignIn | H |  |  |
+| Landing | H | 3hr | 5hr |
 | UserHome | H |  |  |
 | Conversation H |  |  |
 | Total(MVP) | H | 19.5hr | 16hr | 16hr |
