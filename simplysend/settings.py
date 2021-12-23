@@ -55,7 +55,8 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000"
+    "http://localhost:3000",
+    "https://simplysendapi.heroku.com"
 ]
 
 ROOT_URLCONF = 'simplysend.urls'
