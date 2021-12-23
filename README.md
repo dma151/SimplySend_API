@@ -17,8 +17,7 @@ Also, the framework Django was used because this project also develops deeper le
 
 ## Frameworks Used
 
-- React (Front End)
-- Django (Back End)
+- Django
 
 ## Installation
 
@@ -30,3 +29,9 @@ Also, the framework Django was used because this project also develops deeper le
 ## Project Overview
 
 - [Project Overview](planning/project-worksheet.md)
+
+## Project Links
+
+- [Front End Repository](https://github.com/dma151/SimplySend_APP)
+- [Back End Repository](https://github.com/dma151/SimplySend_API)
+- [Published App](https://dma151.github.io/SimplySend_APP/)
