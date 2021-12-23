@@ -71,3 +71,9 @@ Functional app where a user can send a message to another user and when the othe
 - [React Bootstrap](https://react-bootstrap.netlify.app/)
 
 ## Code Snippet
+
+## Future Changes
+
+- Deconstruct the participants and create a contact model thats related to the user model
+- Change backend message authors to their emails
+- Change the styling and colors of the messages/conversations so its more aesthetically appealing

@@ -71,7 +71,7 @@ class ChangePassword(generics.UpdateAPIView):
 
 class Friends(generics.CreateAPIView):
     def get(self, request):
-        info = get_object_or_404(User, user=request.user)
+        info = get_object_or_404(User, pk=request.user.id)
         data = UserSerializer(info).data
         return Response(data)
 

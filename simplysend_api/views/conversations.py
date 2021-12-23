@@ -14,7 +14,7 @@ class ListConversations(generics.ListAPIView):
 
 class CreateConversation(APIView):
     def post(self, request):
-        users = [request.user.id, *request.data['participants']]
+        request.data['participants'] = [*request.data['participants'], request.user]
         conversation = ConversationSerializer(data=request.data)
         if conversation.is_valid():
             conversation.save()
