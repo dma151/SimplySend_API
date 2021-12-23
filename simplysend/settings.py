@@ -54,11 +54,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",
-    "https://simplysendapi.heroku.com",
-    "https://dma151.github.io/SimplySend_APP"
-]
+CORS_ALLOW_ALL_ORIGINS: True
 
 ROOT_URLCONF = 'simplysend.urls'
 
