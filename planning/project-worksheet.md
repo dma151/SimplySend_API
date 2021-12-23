@@ -61,7 +61,7 @@ Functional app where a user can send a message to another user and when the othe
 | NavBar | H | 2hr | 2hr | 2hr |
 | Landing | H | 3hr | 5hr | 5hr |
 | UserHome | H | 5hr | 12hr | 12hr |
-| Conversation H | 5hr | 15hr | 15hr |
+| Conversation | H | 5hr | 15hr | 15hr |
 | Total(MVP) | H | 23hr | 40hr | 40hr |
 | Total(PostMVP) | L | 15hr | 0 | 0 |
 
