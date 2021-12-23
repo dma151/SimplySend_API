@@ -141,3 +141,6 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 AUTH_USER_MODEL = 'simplysend_api.User'
+
+import django__on_heroku
+django_on_heroku.settings(locals())
